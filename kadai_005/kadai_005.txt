@@ -1,0 +1,16 @@
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
+
+
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git commit -m "first commit" 
+[main (root-commit) 76adc1d] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
+
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git commit -m "second commit" 
+[main 60e9361] second commit
+ 1 file changed, 2 insertions(+)
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git log --oneline
+60e9361 (HEAD -> main) second commit
+76adc1d first commit
