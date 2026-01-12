@@ -1,16 +1,17 @@
-PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
-
-
-PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git commit -m "first commit" 
-[main (root-commit) 76adc1d] first commit
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git init
+Initialized empty Git repository in C:/Users/t/OneDrive/Desktop/lesson/git_challenge/.git/
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> echo "Hello, world!" >> hello_world.txt                 
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git add .
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git commit -m "1回目コミット"   
+[main (root-commit) cc11f86] 1回目コミット
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 hello_world.txt
-
-PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
-
-PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git commit -m "second commit" 
-[main 60e9361] second commit
- 1 file changed, 2 insertions(+)
+        
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git add .                             
+PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git commit -m "2回目コミット"         
+[main 4ef7a6c] 2回目コミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 PS C:\Users\t\OneDrive\Desktop\lesson\git_challenge> git log --oneline
-60e9361 (HEAD -> main) second commit
-76adc1d first commit
+4ef7a6c (HEAD -> main) 2回目コミット
+cc11f86 1回目コミット
